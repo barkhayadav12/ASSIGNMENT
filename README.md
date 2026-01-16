@@ -75,8 +75,11 @@
 ## Environment Variables
 
 Create a `.env` file in the backend directory with the following variables:
+MONGODB_URI=
+PORT=
 
 Backend URL (vercel) : https://assignment-mo91.onrender.com/
+
 Frontent URL(vercel): https://assignment-ovrl.vercel.app/
 
 ### Images 
