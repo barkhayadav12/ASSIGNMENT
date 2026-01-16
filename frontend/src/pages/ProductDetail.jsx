@@ -14,7 +14,7 @@ const ProductDetail = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/api/products/${id}`)
+      .get(`https://assignment-mo91.onrender.com/api/products/${id}`)
       .then((res) => {
         setP(res.data);
       })
