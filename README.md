@@ -81,3 +81,6 @@ Frontent URL(vercel): https://assignment-ovrl.vercel.app/
 
 ### Images 
 ![Homepage Screenshot](https://github.com/user-attachments/assets/055046b9-1b16-4a79-ba62-bf2fd9f0c897)
+![Wishlist ScreenShot](https://github.com/user-attachments/assets/c2f0c24e-4ad0-493d-94d1-66877c49fbd6)
+![Cart ScreenShot](https://github.com/user-attachments/assets/a1596e94-415d-42bb-9464-b5c0e82ea7ea)
+![Profile](https://github.com/user-attachments/assets/fb138187-e739-4aca-8c4f-55dba2d6f9f6)
