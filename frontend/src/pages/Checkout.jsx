@@ -15,7 +15,7 @@ const Checkout = () => {
   });
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/user").then((res) => {
+    axios.get("https://assignment-mo91.onrender.com/api/user").then((res) => {
       setSavedAddress(res.data.address);
       setAddress(res.data.address);
     });
@@ -25,7 +25,7 @@ const Checkout = () => {
     setAddress({ ...address, [e.target.name]: e.target.value });
 
   const placeOrder = async () => {
-    const res = await axios.post("http://localhost:5000/api/orders", {
+    const res = await axios.post("https://assignment-mo91.onrender.com/api/orders", {
       address,
       paymentMethod: "COD",
     });
