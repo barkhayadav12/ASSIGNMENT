@@ -19,7 +19,7 @@ const Home = ({ search }) => {
       const query = params.length ? `?${params.join("&")}` : "";
 
       const res = await axios.get(
-        `http://localhost:5000/api/products${query}`
+        `https://assignment-mo91.onrender.com/api/products${query}`
       );
 
       setProducts(res.data);
