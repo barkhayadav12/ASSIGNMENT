@@ -9,7 +9,7 @@ const OrderSuccess = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/api/orders/${id}`)
+      .get(`https://assignment-mo91.onrender.com/api/orders/${id}`)
       .then((res) => setOrder(res.data));
   }, [id]);
 
