@@ -51,7 +51,6 @@
 - Cart icon with item count
 - User profile navigation
 
----
 
 ## Tech Stack
 
@@ -72,7 +71,6 @@
 - Postman
 - dotenv
 
----
 
 ## Environment Variables
 
