@@ -78,3 +78,6 @@ Create a `.env` file in the backend directory with the following variables:
 
 Backend URL (vercel) : https://assignment-mo91.onrender.com/
 Frontent URL(vercel): https://assignment-ovrl.vercel.app/
+
+### Images 
+![Homepage Screenshot](https://github.com/user-attachments/assets/055046b9-1b16-4a79-ba62-bf2fd9f0c897)
