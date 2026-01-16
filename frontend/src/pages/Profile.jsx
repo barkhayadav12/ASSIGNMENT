@@ -6,9 +6,9 @@ const Profile = () => {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/user").then((res) => setUser(res.data));
+    axios.get("https://assignment-mo91.onrender.com/api/user").then((res) => setUser(res.data));
     axios
-      .get("http://localhost:5000/api/orders/user/orders")
+      .get("https://assignment-mo91.onrender.com/api/orders/user/orders")
       .then((res) => setOrders(res.data));
   }, []);
 
